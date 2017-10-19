@@ -17,6 +17,9 @@ header {
   margin-bottom:35px;
 }
 
+nav{
+	background-color: rgba(255,255,255,0.1);
+}
 
 .nav{
 	color: #FFF;
@@ -32,6 +35,16 @@ header {
 	color: #FFF;
 	font-family: 'Ostrich Sans Medium', Medium;
 	font-size: 35px;
+	line-height: 1;
+	font-weight: 300;
+	font-style: normal;
+	color: #FFF;
+	padding-left: 21%
+}
+.nav3{
+	color: #FFF;
+	font-family: 'Ostrich Sans Medium', Medium;
+	font-size: 30px;
 	line-height: 1;
 	font-weight: 300;
 	font-style: normal;
@@ -61,6 +74,16 @@ h2{
 	text-shadow: 1px 1px 10px #000;
 	line-height: 1;
 }
+h22{
+	font-family: 'Ostrich Sans Medium', Medium;
+	font-size: 60px;
+	line-height: 1;
+	letter-spacing: 5px;
+	font-weight: 400;
+	color: #e24434;
+	text-shadow: 1px 1px 10px #000;
+	line-height: 1;
+}
 
 h3{
 font-family: 'Ostrich Sans Medium', Medium;
@@ -84,9 +107,9 @@ a:hover, a:active {
 .group a{color:#999}
 
 .dropdown-menu{
-	background-color:rgba(0,0,0,0.6);
+	background-color:#e24434;
 	line-height: 1;
-	font-family: 'Asap Condensed', sans-serif;
+	font-family: 'Ostrich Sans Medium', Medium;
 	font-size: 20px;
 	font-weight: 300;
 	font-style: normal;
@@ -103,8 +126,8 @@ a:hover, a:active {
   text-align: center;
   outline: none;
   text-decoration: none;
-  transition: border-color 0.3s ease-out,
-              color 0.3s ease-out;
+  transition: border-color 0.2s ease-out,
+              color 0.2s ease-out;
   background-color: rgba(0,0,0,0.3);
 }
 
@@ -112,8 +135,8 @@ a:hover, a:active {
 .btn-orange:active {
   color: #e24434;
   border-color: #e24434;
-  transition: border-color 0.4s ease-in,
-              color 0.4s ease-in;
+  transition: border-color 0.2s ease-in,
+              color 0.2s ease-in;
 }
 
 footer{
@@ -135,7 +158,7 @@ text-align: center;
 }
 
 .jumbotron{
-	background-color:rgba(38, 38, 38,0.5);
+	background-color:rgba(35, 35, 35,0.5);
 }
 
 .group {
@@ -146,7 +169,7 @@ text-align: center;
 input, textarea {
 	padding: 10px 10px 10px 5px;
 	display: block;
-	color: #FFF;
+	color: #e24434;
 	width: 100%;
 	border: none;
 	border-radius: 0;
@@ -193,8 +216,8 @@ input:focus ~ label.field, input.used ~ label.field, textarea:focus ~ label.fiel
 	bottom: 1px;
 	position: absolute;
 	background: #e24434;
-	-webkit-transition:all 0.2s ease;
-	transition: all 0.2s ease;
+	-webkit-transition:all 0.7s ease;
+	transition: all 0.7s ease;
 }
 
 .bar:before { left: 50%; }
@@ -281,10 +304,10 @@ select, option{
 }
 
 .options{
-	font-size: 30px;
+	font-size: 50px;
 	line-height: 1;
 	color: #FFF;
-	font-family: 'Asap Condensed', sans-serif;
+	font-family: 'Ostrich Sans Medium', Medium;
 	font-weight: 300;
 	font-style: normal;
 	letter-spacing: 2px;
@@ -292,8 +315,8 @@ select, option{
 	padding: 30px 50px;
 	background-position: center;
 	margin: 5px 0px;
-	opacity: 0.8;
 	height: 200px;
+	text-shadow: 4px 4px 10px #000000;
 }
 
 .btnone{
@@ -363,7 +386,7 @@ select, option{
 
 .ink {
 	display: block; position: absolute;
-	background: rgba(242,146,22,0.6);
+	background: #e24434;
 	border-radius: 100%;
 	transform: scale(0);
 }
