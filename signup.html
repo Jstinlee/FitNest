@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Six+Caps" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Asap+Condensed" rel="stylesheet">
-  <title>FitNest</title>
+  <title>FitNest - Signup</title>
   <link rel="stylesheet" type="text/css" href="panelstyle.css">
 </head>
 
@@ -52,8 +52,12 @@
 		  <label class="field">Username</label>
         </div>
 		<div class="group">
-          <input type="password" name="password"/><span class="highlight"></span><span class="bar"></span>
+          <input type="password" name="password" id="password" required/><span class="highlight"></span><span class="bar"></span>
 		  <label class="field">Password</label>
+        </div>
+		<div class="group">
+          <input type="password" name="confirm_password" id="confirm_password" onkeyup="check()" required/><span class="bar"></span><span id="message"></span>
+		  <label class="field">Re-type password</label>
         </div>
 		<div class="group">
           <input type="text" name="name"/><span class="highlight"></span><span class="bar"></span>
