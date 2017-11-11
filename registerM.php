@@ -69,6 +69,7 @@
    <div id="div1" class="targetDiv switch">
 	<div class="container">
       <h2>Personal</h2>
+	  <br>
       <div class="dropdown">
     <button class="btn btn-orange dropdown-toggle" type="button" data-toggle="dropdown">Personal
     <span class="caret"></span></button>
@@ -76,6 +77,7 @@
       <li><a class="dropdown-item showSingle" target="2">Group</a></li>
     </ul>
   </div>
+  <br>
   <!-- ALL DATA CODE GO HERE-->
   <div class="papercard">
     <?php
