@@ -49,7 +49,7 @@
       <div class="form-inline my-2 my-lg-1">
         &nbsp;<a href="" style="font-family:Ostrich Sans Medium;color:white;font-size:20pt;">
 		<?php
-                  $user = $_SESSION['username']
+                  $user = $_SESSION['username'];
                   echo $user;
         ?></a>
 
