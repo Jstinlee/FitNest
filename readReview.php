@@ -136,11 +136,14 @@
               </div>
       		<br>
           </div>";
-
       }
-        ?>
+        ?>	
 </div>
+<div class="group">
+			  <a href="historyT.php" class="btn btn-orange btn-md">Back</a>
+        </div>
 </div>
+
 </div>
 
 <br><br>
