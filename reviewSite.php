@@ -93,11 +93,7 @@ $id = $_SESSION['id'];
         $row = mysqli_fetch_assoc($result);
         $check = $row['username'];
 
-        $user = $_SESSION['username'];
-        $query = "SELECT image FROM profileImage WHERE id = '$check'";
-        $result = mysqli_query($mysqli,$query);
-        $row = mysqli_fetch_assoc($result);
-        $profile = $row['image'];
+        
         echo "<img src='image/user.jpg' class='img-circle' alt='trainer-photo' width='100' height='100'>";
             ?>
 
@@ -118,7 +114,12 @@ $id = $_SESSION['id'];
             $result = mysqli_query($mysqli,$query);
             $row = mysqli_fetch_assoc($result);
             echo $row['specialty']; ?></h5>
-			<h5>Class Type: Personal</h5><br/><br/><br/>
+			
+			<h5>Type: <?php
+			$query = "SELECT type FROM trainingSession WHERE sessionID = '$id'";
+            $result = mysqli_query($mysqli,$query);
+            $row = mysqli_fetch_assoc($result);
+			echo $row['type']; ?></h5><br/><br/><br/>
 
 			</div>
 		<div class="group">
